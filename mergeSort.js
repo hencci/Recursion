@@ -5,3 +5,9 @@ function mergeSort(arr) {
     const leftHalf = mergeSort(arr.slice(0, median));
     const rightHalf = mergeSort(arr.slice(median));
 }
+
+function merge(L, R) {
+    const sortedArray = [];
+    let LIndex = 0;
+    let RIndex = 0;
+}
